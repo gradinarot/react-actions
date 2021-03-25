@@ -5,6 +5,6 @@ describe("Button Component", () => {
   it("should render the button with no errors", () => {
     render(<Button />);
 
-    screen.getByRole("button");
+    screen.getByRole("text");
   });
 });
