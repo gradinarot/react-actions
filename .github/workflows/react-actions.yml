@@ -28,4 +28,4 @@ jobs:
       - run: npm test
       - run: npm run build --if-present
       - run: rm -rf /var/www/thedanceweb.com/public_html/*
-      - run: mv ~/actions-runner/_work/react-actions/react-actions/build/*
+      - run: mv ~/actions-runner/_work/react-actions/react-actions/build/* /var/www/thedanceweb.com/public_html/
